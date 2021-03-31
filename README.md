@@ -9,14 +9,16 @@ Miro link: https://miro.com/app/board/o9J_lM4TqRY=/
 
 The rest contains Terraform code. I should have put it in some sort of `src/` folder, I guess 🤔
 
-## Requirements 
+## Requirements
 
 * `terraform` >= 0.13 should be installed.
 * `make`
 
 ## How to run
 
-`make` will do the job. YOLO.
+Rename `local.tfvars.sample` to `local.tfvars` and put your Aiven API token in there.
+
+Then `make` will do the job. YOLO.
 
 Sample output:
 
